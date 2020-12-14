@@ -1,0 +1,21 @@
+{
+  "name": "examplenodejsapi",
+  "description": "Example Node.js API application.",
+  "author": "Anonymous Panda",
+  "dependencies": {
+    "hippie": "^0.5.2",
+    "jjg-ping": "^1.0.3",
+    "mocha": "^5.2.0",
+    "restify": ">=4.1.0"
+  },
+  "scripts": {
+    
+    "start": "node app.js",
+	  "test": "mocha test --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/shahedex/demo-nodejs-api.git"
+  },
+  "engine": "node >= 0.10.6"
+}
